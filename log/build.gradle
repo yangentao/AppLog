@@ -5,11 +5,11 @@ plugins {
     id 'signing'
 }
 String nameGroup = "dev.entao.app"
-String nameVersion = "0.5.0"
+String nameVersion = "0.6.0"
 String nameAF = "log"
 String nameGithub = "AppLog"
 String libDesc = 'Android Library, write log message to Logcat OR local files.'
-
+//检查AndroidManifest.xml中的package
 dependencies {
     implementation 'androidx.core:core-ktx:1.7.0'
 //    implementation 'androidx.appcompat:appcompat:1.4.0'
@@ -21,6 +21,7 @@ group nameGroup
 version nameVersion
 
 android {
+    namespace = "dev.entao.app.$nameAF"
     compileSdk 32
 
     defaultConfig {
