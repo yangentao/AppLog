@@ -16,7 +16,7 @@ dependencyResolutionManagement {
 //		}
 	}
 }
-rootProject.name = "AppViewName"
+rootProject.name = "AppLog"
 
 
 include ':app'
