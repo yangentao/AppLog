@@ -4,7 +4,7 @@ plugins {
 }
 ext {
     nameGroup = "dev.entao.app"
-    nameVersion = "0.6.0"
+    nameVersion = "0.7.0"
     nameAF = "log"
     nameGithub = "AppLog"
     libDesc = 'Android Library, write log message to Logcat OR local files.'
@@ -12,7 +12,5 @@ ext {
 //检查AndroidManifest.xml中的package
 dependencies {
     implementation 'androidx.core:core-ktx:1.7.0'
-//    implementation 'androidx.appcompat:appcompat:1.4.0'
-//    implementation 'com.google.android.material:material:1.4.0'
 }
 apply from: "libcommon.gradle"
