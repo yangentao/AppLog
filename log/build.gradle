@@ -4,7 +4,7 @@ plugins {
 }
 ext {
     nameGroup = "dev.entao.app"
-    nameVersion = "0.7.1"
+    nameVersion = "0.7.3"
     nameAF = "log"
     nameGithub = "AppLog"
     libDesc = 'Android Library, write log message to Logcat OR local files.'
